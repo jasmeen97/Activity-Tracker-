@@ -4,7 +4,7 @@ import sentry_sdk
 
 # Initialize Sentry
 sentry_sdk.init(
-    dsn="YOUR_SENTRY_DSN_HERE",  # Replace with your Sentry DSN
+   # dsn="YOUR_SENTRY_DSN_HERE",  # Replace with your Sentry DSN
     traces_sample_rate=1.0
 )
 
